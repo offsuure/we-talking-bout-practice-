@@ -1,0 +1,37 @@
+<html>
+<head> 
+<title>Guessing Game</title> 
+<script type="text/javascript">
+var theNumber= Math.floor(Math.random()*100+1); 
+  function checkguess(){
+  	var guess=document.getElementById('guess'); 
+  	var output = document.getElementById('output'); 
+  	var myNumber=guess.value; 
+  	if (myNumber < theNumber){
+  		output.value="too low, please try again"; 
+  	  // alert("too low, try again.");
+  	}
+  	else if (myNumber>theNumber){ 
+  		output.value="Too high, please try again";
+
+  	}
+  	else if(myNumber==theNumber){
+  		output.value="You got the number, you win!";
+  		alert("the number was "+ theNumber + "! You Win"); 
+  	}
+
+  }
+
+</script>
+
+</head> 
+<body>
+<h2>Tevis' Guessing Game</h2> 
+<form>
+Enter a number from 1 to 100
+<input id="guess" type="text" size="8" /><br /> 
+<input type="button" value="guess" onclick="checkguess()"/><br /> 
+<input id="output" type="text" size ="40" /> <br /> 
+</form> 
+</body> 
+</html> 
