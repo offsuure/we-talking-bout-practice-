@@ -1,0 +1,22 @@
+function changeTheColor(){
+    var desiredColor; 
+    desiredColor=document.getElementById('colorText').value; 
+    desiredColor=desiredColor.toLowerCase(); 
+    switch (desiredColor){
+      case 'green':
+        document.body.style.backgroundColor="LightGreen"; 
+        document.getElementById("myButton").style.backgroundColor="DarkOliveGreen"; 
+        break 
+      case 'yellow': 
+        document.body.style.backgroundColor="Gold"; 
+        document.getElementById("myButton").style.backgroundColor="PaleGoldenRod"; 
+        break;   
+      case 'blue': 
+        document.body.style.backgroundColor="CornFlowerBlue"; 
+        document.getElementById("myButton").style.backgroundColor="Navy"; 
+      default: 
+        document.body.style.backgroundColor="White"; 
+        alert("Sometimes I don't know my favourite colour either!"); 
+        break;     
+    }// end of switch statement
+  }// end of function 
