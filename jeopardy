@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Jeo</title>
+  <link rel="stylesheet" type="text/css" href="exercise3.css">
+  </head>
+  <body>
+    <div id="heading"><h1>Welcome to Western Jeopardy</h1></div>
+    <div id="firstline"><p>
+    How many players?
+    <select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    </select>
+    <button>Click to Submit Number of Players</button></div>
+    <h2>Scores:</h2>
+    <p id="player 1"></p>
+    <p id="player 2"></p>
+    <p id="player 3"></p>
+    </p>
+    <table border="3">
+<tr>
+	<td>Action Movies</td>
+	<td>Fruit</td>
+	<td>TV Sitcom</td>
+	<td>Up Close and Personal</td>
+	<td>Passion</td>
+</tr>
+<tr>
+	<td><button class="numberbotton"><span class="actionmoviebutton">100</span></button></td>
+	<td><button class="numberbotton"><span class="fruitbutton">100</span></button></td>
+	<td><button class="numberbotton"><span class="tvsitcombutton">100</span></button></td>
+	<td><button class="numberbotton"><span class="upcloseandpersonalbutton">100</span></button></td>
+	<td><button class="numberbotton"><span class="passionbutton">100</span></button></td>
+</tr>
+<tr>
+	<td><button class="numberbotton"><span class="actionmoviebutton">200</span></button></td>
+	<td><button class="numberbotton"><span class="fruitbutton">200</span></button></td>
+	<td><button class="numberbotton"><span class="tvsitcombutton">200</span></button></td>
+	<td><button class="numberbotton"><span class="upcloseandpersonalbutton">200</span></button></td>
+	<td><button class="numberbotton"><span class="passionbutton">200</span></button></td>
+</tr>
+<tr>
+	<td><button class="numberbotton"><span class="actionmoviebutton">300</span></button></td>
+	<td><button class="numberbotton"><span class="fruitbutton">300</span></button></td>
+	<td><button class="numberbotton"><span class="tvsitcombutton">300</span></button></td>
+	<td><button class="numberbotton"><span class="upcloseandpersonalbutton">300</span></button></td>
+	<td><button class="numberbotton"><span class="passionbutton">300</span></button></td>
+</tr>
+</table>
+    <p id="questionarea"></p>
+    <p id="answerarea"></p>
+    <button>Player 1</button>
+    <p id="whoseTurn"></p>
+
+  </body>
+</html>
